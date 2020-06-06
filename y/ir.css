@@ -1,0 +1,109 @@
+h1{
+    color: steelblue;
+    text-align: center ;
+    font-weight: bold;
+    background-color: darkblue;
+}
+h1 img{
+    width: 70px;
+    height: 45px;
+    border-radius: 20px;
+}
+.card{
+    width: 250px !important;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.btn-primary{
+    background-color: indigo !important;
+    width: 100%;
+}
+h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    width: 20% !important;
+    margin-left: 45%;
+
+}
+#ko{
+    padding-left: 120px;
+    margin-top: 20px;
+    border: solid 2px indigo;
+    background-color: indigo;
+    color:white;
+}
+.mar{
+    margin-left: 93px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .mar{
+      
+      margin-left: 0;
+    }
+  }
+  #log{
+      border: solid 2px indigo;
+      margin: 10px;
+      border-radius: 5px;
+      height: 600px;
+  }
+  @media only screen and (max-width: 768px) {
+    
+    #ko{
+      
+     padding-left: 0;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    
+    #log img{
+      
+     width: 100%;
+    }
+  }
+  
+  #sigin ul li{
+     list-style-type: none;
+     margin: 5px;
+     padding-left: 43%;
+    
+     
+  }
+  #sigin ul p{
+      color: indigo;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    
+    #sigin ul li{
+      
+     padding-left: 0;
+     text-align: center;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    
+    #sigin ul p {
+      
+     padding-left: 7%;
+    
+    }
+  }
+  #sigin .btn-primary{
+      width: 120px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    
+    #sigin button {
+      
+   margin-left: 80px !important;
+    
+    }
+  }

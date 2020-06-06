@@ -1,0 +1,75 @@
+.navbar-brand > img{
+    width: 70px;
+    height: 45px;
+    border-radius: 20px;
+}
+#name{
+    color: white;
+   font-weight: bold;
+}
+.navbar{
+    background-color: rgb(89, 21, 138) !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.dropdown-menu:hover{
+    background-color: indigo;
+}
+#first{
+    text-align: center;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+    background-color: indigo;
+}
+.card{
+    width: 200px !important;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.btn-primary{
+    background-color: indigo;
+    width: 100%;
+}
+h5{
+    color: indigo;
+    text-align: center;
+}
+h4{
+    color: indigo;
+   font-size: small;
+   font-weight: bolder;
+   text-align: center;
+}
+.foot{
+  background-color: indigo;
+  height: 263px;
+}
+
+h2{
+    color: white;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.foot img{
+    height: 20px;
+}
+.foot a img{
+    height: 30px;
+    padding-left: 90%;
+}
+@media only screen and (max-width: 768px) {
+    
+    .foot span a img{
+      width: 100%;
+      padding-left: -10%;
+    }
+  }
+  #copy{
+      color: white;
+      font-size: small;
+  }

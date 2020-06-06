@@ -1,0 +1,42 @@
+#hp{
+   margin-left: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #hp{
+      margin-left: -10px !important;
+    }
+  }
+  
+  h4{
+      text-align: center;
+  }
+.form-check{
+    text-align: center;
+}
+.btn-primary{
+    margin-left: 400px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .btn-primary{
+      margin-left: 123px !important;
+      width: 100px !important;
+    }
+  }
+  #ord li{
+list-style: none;
+margin: 5px;
+display: inline;
+padding-left: 400px;
+  }
+  @media only screen and (max-width: 768px) {
+    
+    #ord li{
+      padding-left: 50px;
+    }
+  }
+h6{
+  text-align: center;
+}
